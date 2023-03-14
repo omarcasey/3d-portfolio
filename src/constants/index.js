@@ -176,7 +176,7 @@ const experiences = [
     iconBg: "#282634",
     date: "Jun 2021 - Jan 2022",
     points: [
-      "Designed and developed websites for family and friends’ businesses, creating visually appealing and user-friendly web experiences for clients.",
+      "Designed and developed websites for businesses, creating visually appealing and user-friendly web experiences for clients.",
       "Utilized front-end development technologies such as HTML, CSS, and JavaScript to build websites that are both responsive and accessible.",
       "Collaborated with clients to ensure complete satisfaction with the end result, making necessary updates and revisions until the website met their expectations.",
     ],
@@ -188,10 +188,9 @@ const experiences = [
     iconBg: "#014080",
     date: "Jan 2021 - Present",
     points: [
-      "Built a quantitative momentum investing strategy using Python, analyzing large financial datasets to identify stocks with high momentum and potential for growth.",
-      "Designed and developed a Discord bot to manage a community of traders, providing real-time alerts on market changes and reminders to rebalance their portfolios based on their specific trading strategies.",
-      "Built a landing page for StatOasis, a business that offers courses and educational resources on how to learn algorithmic trading, attracting between 100 and 300 unique visitors per month.",
-      "Demonstrated proficiency in Python, JavaScript, HTML, CSS, and various data analysis and visualization tools, including pandas, NumPy, and Matplotlib.",
+      "Developed a full-stack web application that utilized custom algorithmic trading strategies and analyzed large financial datasets to visually showcase their potential benefits to students.",
+      "Implemented a Python-based application that automates the delivery of buy and sell signals and reminders to rebalance portfolios based on their specific trading strategies, via email.",
+      "Designed and built a complete website for StatOasis that comprised a captivating landing page and nine additional pages. The website features a highly optimized layout, contributing to the business’s success and attracts 300 unique visitors per month.",
     ],
   },
   {
