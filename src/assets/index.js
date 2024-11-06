@@ -40,10 +40,12 @@ import tesla from "./company/tesla.png";
 import mocha from './company/mocha.png';
 import OCcompany from './company/OCcompany.png'
 import statoasis from './company/statoasis.png'
+import petrafi from './company/Petrafi.png'
 
 import aigram from './aigram.png';
 import renthome from './renthome.png';
 import chatgpt from './chatgpt.png';
+import sqribe from './sqribe demo.png'
 
 export {
   logo,
@@ -89,4 +91,6 @@ export {
   angular,
   java,
   statoasis,
+  sqribe,
+  petrafi,
 };

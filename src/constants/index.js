@@ -33,6 +33,8 @@ import {
   angular,
   java,
   statoasis,
+  sqribe,
+  petrafi,
 } from "../assets";
 
 export const navLinks = [
@@ -170,6 +172,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Development Manager",
+    company_name: "Petrafi Inc.",
+    icon: petrafi,
+    iconBg: "#014080",
+    date: "Sep 2023 - Present",
+    points: [
+      "Orchestrated the end-to-end development of a SaaS platform for trucking logistics, managing a dynamic team of software developers and ensuring the successful implementation of Agile methodologies.",
+      "Spearheaded project management using Jira, fostering seamless collaboration among team members and stakeholders, resulting in increased productivity and on-time project delivery.",
+      "Leveraged expertise in AWS and Azure to oversee the platform's deployment and maintenance on cloud environments, optimizing scalability, security, and reliability.",
+      "Applied React proficiency to guide the development of user interfaces, enhancing the platform's usability and delivering a superior experience for end-users."
+    ],
+  },
+  {
+    title: "Contract Software Engineer",
+    company_name: "StatOasis Inc.",
+    icon: statoasis,
+    iconBg: "#014080",
+    date: "Jan 2021 - Sep 2023",
+    points: [
+      "Developed a full-stack web application that utilized custom algorithmic trading strategies and analyzed large financial datasets to visually showcase their potential benefits to students.",
+      "Implemented a Python-based application that automates the delivery of buy and sell signals and reminders to rebalance portfolios based on their specific trading strategies, via email.",
+      "Designed and developed a complete website for StatOasis, which included a captivating landing page, nine additional pages, and a blog that integrated with a content management system (CMS).",
+      "Leveraged the capabilities of Next.js 13 to optimize the website and increase its performance by 30\%, resulting in the attraction of 300 unique visitors per month and contributing to the business's success."
+    ],
+  },
+  {
     title: "Web Developer",
     company_name: "Independent Freelance",
     icon: OCcompany,
@@ -179,18 +207,6 @@ const experiences = [
       "Designed and developed websites for businesses, creating visually appealing and user-friendly web experiences for clients.",
       "Utilized front-end development technologies such as HTML, CSS, and JavaScript to build websites that are both responsive and accessible.",
       "Collaborated with clients to ensure complete satisfaction with the end result, making necessary updates and revisions until the website met their expectations.",
-    ],
-  },
-  {
-    title: "Contract Software Engineer",
-    company_name: "StatOasis Inc.",
-    icon: statoasis,
-    iconBg: "#014080",
-    date: "Jan 2021 - Present",
-    points: [
-      "Developed a full-stack web application that utilized custom algorithmic trading strategies and analyzed large financial datasets to visually showcase their potential benefits to students.",
-      "Implemented a Python-based application that automates the delivery of buy and sell signals and reminders to rebalance portfolios based on their specific trading strategies, via email.",
-      "Designed and built a complete website for StatOasis that comprised a captivating landing page and nine additional pages. The website features a highly optimized layout, contributing to the business’s success and attracts 300 unique visitors per month.",
     ],
   },
   {
@@ -239,9 +255,38 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Sqribe.ai",
+    description:
+      "AI-powered SaaS platform, Sqribe.ai, aimed at revolutionizing YouTube video production with automated captions, voice overs, translations, and dubbing in multiple languages.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NextAuth",
+        color: "green-text-gradient",
+      },
+    ],
+    image: sqribe,
+    source_code_link: "https://github.com/omarcasey/sqribe_app",
+  },
+  {
     name: "AI-gram",
     description:
-      "AIgram is an AI-powered Instagram clone. It is a full-stack web application that integrates a cutting-edge deep learning model, only allowing users to upload AI-generated images using the DALLE 2 image generator, providing a unique and creative experience for users. It also features complete CRUD functionalities, user authentication, and a modern and clean design with Tailwind CSS. The app was built using React, Next.js, Firebase, NextAuth, Recoil, and TypeScript.",
+      "AIgram is an AI-powered Instagram clone. It is a full-stack web application that integrates a cutting-edge deep learning model, only allowing users to upload AI-generated images using the DALLE 2 image generator, providing a unique and creative experience for users. It also features complete CRUD functionalities, user authentication, and a modern and clean design.",
     tags: [
       {
         name: "React",
@@ -274,7 +319,7 @@ const projects = [
   {
     name: "RentHome",
     description:
-      "My real estate project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) dashboard application designed to manage properties and users. It has complete CRUD functionality, user authentication, pagination, sorting, and filtering. The app utilizes Refine, a React-based framework, to create a highly customizable, responsive, and user-friendly interface. Material UI and Cloudinary are integrated for a streamlined design and efficient image management. Google Authentication ensures secure access to the dashboard, and TypeScript improves reliability and development experience.",
+      "My real estate project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) dashboard application designed to manage properties and users. It has complete CRUD functionality, user authentication, pagination, sorting, and filtering.",
     tags: [
       {
         name: "React",
@@ -304,39 +349,39 @@ const projects = [
     image: renthome,
     source_code_link: "https://github.com/omarcasey/real_estate_app-refine",
   },
-  {
-    name: "ChatGPT Clone",
-    description:
-      "My ChatGPT Clone project is a web application that uses OpenAI's GPT model to generate human-like responses to user inputs in real-time. The application features a user-friendly interface that enables users to interact with the pre-trained model and receive relevant responses to their queries. It was built using modern web technologies such as React, Next.js, TypeScript, Tailwind CSS, Firebase, and NextAuth.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NextAuth",
-        color: "green-text-gradient",
-      },
-    ],
-    image: chatgpt,
-    source_code_link: "https://github.com/omarcasey/chatgpt-clone",
-  },
+  // {
+  //   name: "ChatGPT Clone",
+  //   description:
+  //     "My ChatGPT Clone project is a web application that uses OpenAI's GPT model to generate human-like responses to user inputs in real-time. The application features a user-friendly interface that enables users to interact with the pre-trained model and receive relevant responses to their queries. It was built using modern web technologies such as React, Next.js, TypeScript, Tailwind CSS, Firebase, and NextAuth.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Next.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "NextAuth",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: chatgpt,
+  //   source_code_link: "https://github.com/omarcasey/chatgpt-clone",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
