@@ -46,6 +46,8 @@ import aigram from './aigram.png';
 import renthome from './renthome.png';
 import chatgpt from './chatgpt.png';
 import sqribe from './sqribe demo.png'
+import tradetrackr from './tradetrackr.png';
+import tradetrackrnew from './tradetrackr new.png';
 
 export {
   logo,
@@ -93,4 +95,6 @@ export {
   statoasis,
   sqribe,
   petrafi,
+  tradetrackr,
+  tradetrackrnew,
 };

@@ -35,6 +35,8 @@ import {
   statoasis,
   sqribe,
   petrafi,
+  tradetrackr,
+  tradetrackrnew,
 } from "../assets";
 
 export const navLinks = [
@@ -48,7 +50,7 @@ export const navLinks = [
   },
   {
     id: "projects",
-    title: "Projects"
+    title: "Projects",
   },
   {
     id: "contact",
@@ -181,7 +183,7 @@ const experiences = [
       "Orchestrated the end-to-end development of a SaaS platform for trucking logistics, managing a dynamic team of software developers and ensuring the successful implementation of Agile methodologies.",
       "Spearheaded project management using Jira, fostering seamless collaboration among team members and stakeholders, resulting in increased productivity and on-time project delivery.",
       "Leveraged expertise in AWS and Azure to oversee the platform's deployment and maintenance on cloud environments, optimizing scalability, security, and reliability.",
-      "Applied React proficiency to guide the development of user interfaces, enhancing the platform's usability and delivering a superior experience for end-users."
+      "Applied React proficiency to guide the development of user interfaces, enhancing the platform's usability and delivering a superior experience for end-users.",
     ],
   },
   {
@@ -194,7 +196,7 @@ const experiences = [
       "Developed a full-stack web application that utilized custom algorithmic trading strategies and analyzed large financial datasets to visually showcase their potential benefits to students.",
       "Implemented a Python-based application that automates the delivery of buy and sell signals and reminders to rebalance portfolios based on their specific trading strategies, via email.",
       "Designed and developed a complete website for StatOasis, which included a captivating landing page, nine additional pages, and a blog that integrated with a content management system (CMS).",
-      "Leveraged the capabilities of Next.js 13 to optimize the website and increase its performance by 30\%, resulting in the attraction of 300 unique visitors per month and contributing to the business's success."
+      "Leveraged the capabilities of Next.js 13 to optimize the website and increase its performance by 30%, resulting in the attraction of 300 unique visitors per month and contributing to the business's success.",
     ],
   },
   {
@@ -233,7 +235,8 @@ const testimonials = [
     name: "Ali",
     designation: "Founder & CEO",
     company: "StatOasis",
-    image: "https://media.licdn.com/dms/image/C4E03AQFIbjeGTMEZww/profile-displayphoto-shrink_800_800/0/1517594042776?e=2147483647&v=beta&t=B4i1v5GP62uBsXoo19LSxz0VESL2pn-d9gq8TWINMQ4",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQFIbjeGTMEZww/profile-displayphoto-shrink_800_800/0/1517594042776?e=2147483647&v=beta&t=B4i1v5GP62uBsXoo19LSxz0VESL2pn-d9gq8TWINMQ4",
   },
   // {
   //   testimonial:
@@ -254,6 +257,35 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TradeTrackr",
+    description:
+      "TradeTrackr is a SaaS platform revolutionizing portfolio management by helping investors track and analyze their trading performance. The full-stack application features transaction tracking, interactive visualizations, and automated analytics, all wrapped in an intuitive interface. With secure authentication and comprehensive CRUD functionality, TradeTrackr makes it easy for users to manage their investments and make data-driven trading decisions, available through flexible subscription plans.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: tradetrackr,
+    source_code_link: "https://github.com/omarcasey/tradetrackr",
+  },
   {
     name: "Sqribe.ai",
     description:
@@ -315,39 +347,6 @@ const projects = [
     ],
     image: aigram,
     source_code_link: "https://github.com/omarcasey/AI-gram",
-  },
-  {
-    name: "RentHome",
-    description:
-      "My real estate project is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) dashboard application designed to manage properties and users. It has complete CRUD functionality, user authentication, pagination, sorting, and filtering.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MaterialUI",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-    ],
-    image: renthome,
-    source_code_link: "https://github.com/omarcasey/real_estate_app-refine",
   },
   // {
   //   name: "ChatGPT Clone",

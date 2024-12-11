@@ -30,7 +30,7 @@ const Hero = () => {
             <Cursor cursorColor='#F7AB0A' />
           </h1> */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Frontend focused developer. <br className='sm:block hidden' />
+            Fullstack web developer. <br className='sm:block hidden' />
             Bringing ideas to life through code.
           </p>
         </div>
