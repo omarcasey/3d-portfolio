@@ -60,21 +60,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
-    title: "Fullstack Developer",
+    title: "Technical Product Manager",
     icon: mobile,
   },
   {
-    title: "Python Developer",
+    title: "AI Automation Developer",
     icon: backend,
   },
-  {
-    title: "Software Engineer",
-    icon: creator,
-  },
+  // {
+  //   title: "Software Engineer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -174,7 +174,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Manager",
+    title: "Technical Product Manager",
     company_name: "Petrafi Inc.",
     icon: petrafi,
     iconBg: "#014080",
@@ -258,7 +258,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "TradeTrackr",
+    name: "AlgoChef",
     description:
       "TradeTrackr is a SaaS platform revolutionizing portfolio management by helping investors track and analyze their trading performance. The full-stack application features transaction tracking, interactive visualizations, and automated analytics, all wrapped in an intuitive interface. With secure authentication and comprehensive CRUD functionality, TradeTrackr makes it easy for users to manage their investments and make data-driven trading decisions, available through flexible subscription plans.",
     tags: [
