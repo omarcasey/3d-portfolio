@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from 'react-tilted'
+import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
 import { SectionWrapper } from "../hoc";
@@ -18,19 +18,22 @@ const Tech = () => {
       <div className='flex flex-row flex-wrap justify-center gap-10 mt-12'>
         {technologies.map((technology, index) => (
           <Tilt
+            key={technology.name}
+            tiltMaxAngleX={15}
+            tiltMaxAngleY={15}
             scale={1.5}
-            speed={1000}
+            transitionSpeed={1000}
+            className="w-24 h-24 md:w-28 md:h-28 xl:h-24 xl:w-24"
           >
             <motion.img
-              initial={{ x: 0, y: 0, opacity: 0 }}
-              whileInView={{ x: 0, y: 0, opacity: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               transition={{ duration: 2 }}
-              key={technology.name}
               viewport={{ once: true }}
-              className='object-cover h-24 w-24 md:w-28 md:h-28 xl:h-24 xl:w-24
-            filter group-hover:grayscale transition duration-300 ease-in-out'
+              className='w-full h-full object-cover filter group-hover:grayscale transition duration-300 ease-in-out'
               src={technology.icon}
-              alt='techimage' />
+              alt={technology.name}
+            />
           </Tilt>
         ))}
       </div>

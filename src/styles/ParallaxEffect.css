@@ -1,0 +1,33 @@
+.parallax-effect {
+  transform-style: preserve-3d;
+}
+
+.parallax-effect > div {
+  transform-style: preserve-3d;
+}
+
+.parallax-effect > div > div {
+  transform-style: preserve-3d;
+}
+
+.inner-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(60px);
+  pointer-events: none;
+}
+
+.inner-element img,
+.inner-element h3 {
+  pointer-events: auto;
+}
+
+.parallax-effect-glare-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+} 

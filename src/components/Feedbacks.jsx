@@ -1,11 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Tilt from 'react-parallax-tilt';
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
-import Tilt from 'react-tilted'
 
 const FeedbackCard = ({
   index,
@@ -58,9 +58,12 @@ const Feedbacks = () => {
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
           <Tilt
-            max={10}
+            key={testimonial.name}
+            tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
             scale={1.05}
-            speed={1500}>
+            transitionSpeed={1500}
+          >
             <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
           </Tilt>
         ))}

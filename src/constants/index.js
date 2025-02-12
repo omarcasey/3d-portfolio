@@ -180,10 +180,11 @@ const experiences = [
     iconBg: "#014080",
     date: "Sep 2023 - Present",
     points: [
-      "Orchestrated the end-to-end development of a SaaS platform for trucking logistics, managing a dynamic team of software developers and ensuring the successful implementation of Agile methodologies.",
-      "Spearheaded project management using Jira, fostering seamless collaboration among team members and stakeholders, resulting in increased productivity and on-time project delivery.",
-      "Leveraged expertise in AWS and Azure to oversee the platform's deployment and maintenance on cloud environments, optimizing scalability, security, and reliability.",
-      "Applied React proficiency to guide the development of user interfaces, enhancing the platform's usability and delivering a superior experience for end-users.",
+      "Led an 8-person development team building a multi-platform SaaS logistics solution encompassing both web and mobile applications, serving dispatchers, sales teams, and hundreds of active truck drivers.",
+      "Streamlined product development cycles by implementing comprehensive documentation processes and facilitating direct communication between stakeholders and development team.",
+      "Implemented Agile processes using Jira, resulting in 30% increase in sprint velocity and 90% on-time delivery rate for key platform features.",
+      "Leveraged expertise in AWS and Azure to optimize cloud infrastructure, reducing monthly costs by 25% through efficient resource allocation and management.",
+      "Drove UI/UX improvements across web and mobile interfaces through optimized React components, resulting in 50% reduction in user onboarding time and 35% increase in driver app engagement.",
     ],
   },
   {
@@ -193,10 +194,10 @@ const experiences = [
     iconBg: "#014080",
     date: "Jan 2021 - Sep 2023",
     points: [
-      "Developed a full-stack web application that utilized custom algorithmic trading strategies and analyzed large financial datasets to visually showcase their potential benefits to students.",
-      "Implemented a Python-based application that automates the delivery of buy and sell signals and reminders to rebalance portfolios based on their specific trading strategies, via email.",
-      "Designed and developed a complete website for StatOasis, which included a captivating landing page, nine additional pages, and a blog that integrated with a content management system (CMS).",
-      "Leveraged the capabilities of Next.js 13 to optimize the website and increase its performance by 30%, resulting in the attraction of 300 unique visitors per month and contributing to the business's success.",
+      "Developed AlgoChef, a full-stack Next.js trading analytics platform processing over 100,000 trading records, enabling students to analyze their trading strategies and performance across any brokerage platform.",
+      "Engineered and maintained 8+ algorithmic trading strategies in Python generating monthly signals for 150+ students, deployed on cloud infrastructure for automated execution and distribution.",
+      "Built automated email notification system processing trading signals and portfolio rebalancing alerts, reaching 95% delivery success rate.",
+      "Designed and launched company website, resulting in 300+ monthly visitors and improved student engagement with educational content.",
     ],
   },
   {
@@ -206,8 +207,7 @@ const experiences = [
     iconBg: "#282634",
     date: "Jun 2021 - Jan 2022",
     points: [
-      "Designed and developed websites for businesses, creating visually appealing and user-friendly web experiences for clients.",
-      "Utilized front-end development technologies such as HTML, CSS, and JavaScript to build websites that are both responsive and accessible.",
+      "Developed custom React-based websites for 3 business clients, increasing their online visibility and achieving an average of 40% improvement in page load times.",
       "Collaborated with clients to ensure complete satisfaction with the end result, making necessary updates and revisions until the website met their expectations.",
     ],
   },
@@ -260,7 +260,15 @@ const projects = [
   {
     name: "AlgoChef",
     description:
-      "TradeTrackr is a SaaS platform revolutionizing portfolio management by helping investors track and analyze their trading performance. The full-stack application features transaction tracking, interactive visualizations, and automated analytics, all wrapped in an intuitive interface. With secure authentication and comprehensive CRUD functionality, TradeTrackr makes it easy for users to manage their investments and make data-driven trading decisions, available through flexible subscription plans.",
+      "A comprehensive trading analytics SaaS platform that enables investors to analyze complex trading strategies across any brokerage platform. Using advanced quantitative analysis and modern portfolio theory, it processes 100,000+ trading records to provide sophisticated portfolio insights and optimization.",
+    bulletPoints: [
+      "Built and launched a comprehensive SaaS trading analytics platform solo, enabling investors to analyze complex trading strategies across any brokerage platform, reaching 100+ monthly active users",
+      "Implemented advanced quantitative analysis including Sharpe ratio, Monte Carlo simulations, and Value at Risk (VaR) calculations to provide sophisticated portfolio insights",
+      "Engineered a proprietary portfolio optimization algorithm using modern portfolio theory, processing 100,000+ trading records to maximize returns while minimizing risk",
+      "Developed an intuitive data import system with custom column mapping, allowing seamless analysis of trading history from any brokerage platform",
+      "Created interactive data visualizations and real-time analytics dashboard to help users understand complex trading metrics and portfolio performance",
+      "Featured on specialized algorithmic trading YouTube channel (15K+ subscribers) for innovative approach to quantitative portfolio analysis",
+    ],
     tags: [
       {
         name: "React",
@@ -289,7 +297,15 @@ const projects = [
   {
     name: "Sqribe.ai",
     description:
-      "AI-powered SaaS platform, Sqribe.ai, aimed at revolutionizing YouTube video production with automated captions, voice overs, translations, and dubbing in multiple languages.",
+      "An AI-powered video dubbing platform that lets content creators preserve their original voice while translating their content into multiple languages. The platform processes hundreds of hours of video content while maintaining voice authenticity across 8+ languages.",
+    bulletPoints: [
+      "Founded and engineered an innovative AI-powered video dubbing platform, enabling content creators to dub videos into multiple languages while preserving their original voice, reaching 80+ monthly active users",
+      "Architected a scalable cloud infrastructure using Google Cloud Functions and Pub/Sub for distributed video processing, handling hundreds of hours of content while maintaining voice authenticity",
+      "Engineered high-fidelity voice cloning system with ElevenLabs API achieving 95% voice similarity across 8+ languages, reducing traditional dubbing time by 60%",
+      "Developed asynchronous video processing pipeline with RESTful APIs for service orchestration, optimizing concurrent requests and maintaining sub-10 minute processing times per video",
+      "Created intuitive video editing interface allowing non-technical users to easily generate multilingual content with preserved voice characteristics",
+      "Recognized by Miami tech community for innovative use of AI voice technology",
+    ],
     tags: [
       {
         name: "React",
@@ -315,39 +331,39 @@ const projects = [
     image: sqribe,
     source_code_link: "https://github.com/omarcasey/sqribe_app",
   },
-  {
-    name: "AI-gram",
-    description:
-      "AIgram is an AI-powered Instagram clone. It is a full-stack web application that integrates a cutting-edge deep learning model, only allowing users to upload AI-generated images using the DALLE 2 image generator, providing a unique and creative experience for users. It also features complete CRUD functionalities, user authentication, and a modern and clean design.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NextAuth",
-        color: "green-text-gradient",
-      },
-    ],
-    image: aigram,
-    source_code_link: "https://github.com/omarcasey/AI-gram",
-  },
+  // {
+  //   name: "AI-gram",
+  //   description:
+  //     "AIgram is an AI-powered Instagram clone. It is a full-stack web application that integrates a cutting-edge deep learning model, only allowing users to upload AI-generated images using the DALLE 2 image generator, providing a unique and creative experience for users. It also features complete CRUD functionalities, user authentication, and a modern and clean design.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Next.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "NextAuth",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: aigram,
+  //   source_code_link: "https://github.com/omarcasey/AI-gram",
+  // },
   // {
   //   name: "ChatGPT Clone",
   //   description:
