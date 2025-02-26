@@ -41,7 +41,7 @@ const ProjectCard = ({
       >
         <div className="flex flex-col md:flex-row gap-8">
           {/* Image container with parallax */}
-          <div className="relative md:w-[400px] w-full h-[300px]">
+          <div className="relative md:w-[400px] w-full h-[250px]">
             <div className="tilt-inner">
               <img
                 src={image}

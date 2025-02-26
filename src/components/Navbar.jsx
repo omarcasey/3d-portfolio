@@ -27,15 +27,15 @@ const Navbar = () => {
   }, []);
 
   const [text] = useTypewriter({
-    words: ['Software Engineer',
-    'Innovative Developer.',
-    'Collaborative Team-player',
-    'Agile Developer',
-    'Versatile Programmer',
-    'Analytical Thinker',
-    'Efficient Coder',
-    'Creative Engineer',
-    'Continuous Learner'],
+    words: ['Full-Stack SaaS Developer',
+      'Technical Product Manager',
+      'AI Automation Developer',
+      'Trading Analytics Engineer',
+      'Cloud Solutions Architect',
+      'React & Next.js Expert',
+      'AI Agency Founder',
+      'Voice Cloning Specialist',
+      'Algorithmic Trading Developer'],
     loop: true,
     delaySpeed: 3000
   })
